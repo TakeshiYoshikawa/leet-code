@@ -70,8 +70,12 @@ int main(){
     
     tree.create();
 
-    // tree.PreOrder(tree.root);
-    // tree.InOrder(tree.root);
+    tree.PreOrder(tree.root);
+    std::cout << std::endl;
+
+    tree.InOrder(tree.root);
+    std::cout << std::endl;
+
     tree.PostOrder(tree.root);
 
     return 0;
