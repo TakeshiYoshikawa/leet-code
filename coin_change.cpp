@@ -5,7 +5,7 @@ public:
         
         change[0] = 0;
         for(int coin : coins){
-            for(int j = coin; j <= amount; j++){
+            for(int j = coin; j < amount + 1; j++){
                 change[j] = min(change[j - coin] + 1, change[j]);
             }
         }
