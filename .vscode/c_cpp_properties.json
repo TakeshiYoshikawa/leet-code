@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Takeshi",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/mingw64",
+                "C:/msys64/mingw64/include/c++/11.2.0",
+                "C:/msys64/mingw64/include/c++/11.2.0/x86_64-w64-mingw32",
+                "C:/msys64/mingw64/include/c++/11.2.0/tr1",
+                "C:/msys64/mingw64/x86_64-w64-mingw32/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
